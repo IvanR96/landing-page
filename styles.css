@@ -1,0 +1,200 @@
+*{
+    margin: auto;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 100px;   
+}
+
+
+.container-2{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.two{
+    padding-bottom: 10px;
+}
+
+.square1{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+.square2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links {
+    display: flex;
+    margin-left: 250px;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 600px;
+    flex: 1 1 0;
+    list-style: none;
+    flex-shrink: 1;
+    padding: 15px;
+
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    display: flex;
+    height: 350px;
+    width: 500px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.calltoact{
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    font-size: 36px;
+    font-style: italic ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+}
+.random-info{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.car-names{
+    padding-top: 20px;
+    display: flex;
+    gap: 320px;
+    justify-content: center;
+}
+.name1{
+    flex-direction: row;
+    display: flex;
+
+}
+
+.name2{
+    flex-direction: row;
+    display: flex;
+}
+
+.name3{
+    flex-direction: row;
+    display: flex;
+}
+
+.name3{
+    flex-direction: row;
+    display: flex;
+}
+.name4{
+    flex-direction: row;
+    display: flex;
+
+}
+
+h2{
+    padding-bottom: 40px;
+}
+.cars{
+    display: flex;
+    gap: 50px;
+}
+.car-img1{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.car-img2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.car-img3{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+    
+}
+
+.car-img4{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+    
+}
+
+.selection{
+    display: flex;
+    width: 200px;
+}
+
+.cars{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+   background-color: #3882F6;
+   height: 30px;
+   width: 120px;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+}
+
+
